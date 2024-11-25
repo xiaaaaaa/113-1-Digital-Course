@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+   <html>
+      <head>
+            <title> NTUE Enployee Information </title>
+      </head>
+      <body>
+         <h2>新人報到表單</h2>
+         <form action="/register">
+            <fieldset>
+               <legend>個人資料</legend>
+               <label for="name">姓名：</label>
+               <input type="text" id="name" name="name" required>
+               <br/><br/>
+               <label for="birth">生日：</label>
+               <input type="date" id="birth" name="birth" value="" required />
+               <br/><br/>
+               <label for="phone">行動電話號碼 :</label>
+               <input type="tel" id="phone" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required />
+               <small>(填寫格式：1234-567-890)</small>
+               <br/><br/>
+               <label for="email" >Email：</label>
+               <input type="email" placeholder="example@email.com" required>
+            </fieldset>
+        <br/>
+            <fieldset>
+                  <legend>教育程度</legend>
+                  <label for="hdegree">最高學歷 :</label>
+                  <select name="hdegree" required>
+                        <option value="" disabled selected>請選擇</option>
+                        <option value="PhD">博士</option>
+                        <option value="Master">研究所</option>
+                        <option value="Bachelor">大學</option>
+                        <option value="Senior">高中</option>
+                  </select>
+                  <br/><br/>
+                  <label for="Collegename">學校名稱 :</label>
+                  <input type="text" id="Collegename" name="Collegename" required>
+                  <br/><br/>
+                  <label for="graduate-status">畢業狀況 :</label>
+                        <input type="radio" id="contactChoice1" name="contact" value="graduate" required/>
+                        <label for="contactChoice1">已畢業</label>
+                        <input type="radio" id="contactChoice2" name="contact" value="study" />
+                        <label for="contactChoice2">肄業</label>
+            </fieldset>
+        <br/>
+            <fieldset>
+                  <legend>職位資訊</legend>
+                  <label for="department">部門 :</label>
+                  <select name="browser">
+                        <option value="" disabled selected>請選擇</option>
+                        <option value="human-resources">人力資源部</option>
+                        <option value="imformation-technology">資訊技術部</option>
+                        <option value="finance">財務部</option>
+                  </select>
+                  <br/><br/>
+                  <label for="gender">性別 :</label>
+                  <input type="radio" id="male" name="contact2" value="male" required/>
+                  <label for="male">男</label>
+                  <input type="radio" id="female" name="contact2" value="female" />
+                  <label for="female">女</label>
+            </fieldset>
+            <br>
+            <input type="submit" value="提交" />
+
+         </form>
+      </body>
+</html>
