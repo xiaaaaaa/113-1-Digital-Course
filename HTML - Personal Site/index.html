@@ -9,20 +9,19 @@
     <header>
         <h1>洪惠黠 的個人部落格</h1>
         <nav>
-            <a href="#section1">關於我</a>
-            <a href="#section2">工作經歷</a>
-            <a href="#section3">工作技能</a>
-            <a href="#section4">音樂作品</a>
-            <a href="#section5">視訊作品</a>
-            <a href="#section6">圖片作品</a>
-            <a href="#section7">更多資訊</a>
+            <a href="#section1" style=" color: rgb(30, 126, 121);">關於我</a>
+            <a href="#section2" style=" color: rgb(30, 126, 121);">工作技能</a>
+            <a href="#section3" style=" color: rgb(30, 126, 121);">音訊介紹</a>
+            <a href="#section4" style=" color: rgb(30, 126, 121);">視訊作品</a>
+            <a href="#section5" style=" color: rgb(30, 126, 121);">Logo 設計作品</a>
+            <a href="#section6" style=" color: rgb(30, 126, 121);">插畫作品</a>
+            <a href="#section7" style=" color: rgb(30, 126, 121);">水彩、素描作品</a>
         </nav>
     </header>
     
     <!-- 主內容區 -->
     <main>
-        
-
+        <br>
         <!-- 個人介紹 -->
         <article id="section1">
             <header>
@@ -42,104 +41,103 @@
             </section>
         </article>
 
-        <!-- 工作經歷介紹 -->
-        <article id="section2">
-            <header>
-                <h2>工作經歷</h2>
-            </header>
-            <section>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Dates</th>
-                            <th>Work</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>2018-2024</td>
-                            <td>國立台北教育大學資訊科學系</td>
-                        </tr>
-                        <tr>
-                            <td>2018-2024</td>
-                            <td>XX科技公司執行長</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-        </article>
-
+        
+        <br>
         <!-- 技能介紹 -->
-        <article id="section3">
+        <article id="section2">
             <header>
                 <h2>工作技能</h2>
             </header>
             <section>
                 <table>
+                    <colgroup>
+                        <col style="background-color: lightblue" />
+                    </colgroup>
                     <tr>
-                        <td>Java</td>
-                        <td>⭐⭐⭐</td>
+                        <td>設計</td>
+                        <td>
+                            <p>illustrator<br>photoshop<br>Clip Studio Paint</p>
+                        </td>
                     </tr>
                     <tr>
-                        <td>C++</td>
-                        <td>⭐⭐⭐</td>
+                        <td>3D</td>
+                        <td>
+                            <p>sketchup<br>3dMax</p>
+                        </td>
                     </tr>
                     <tr>
-                        <td>Python</td>
-                        <td>⭐⭐⭐⭐⭐</td>
+                        <td>程式</td>
+                        <td>
+                            <p>C#<br>C++<br>java</p>
+                        </td>
                     </tr>
                 </table>
             </section>
         </article>
 
+        <br>
         <!-- 音樂作品介紹 -->
-        <article id="section4">
+        <article id="section3">
             <h2>音訊介紹</h2>
             <audio controls>
-                <!-- 改為你的作品 -->
-                <source src="assets/audio/Whispers in the Trees 1.mp3" type="audio/mpeg">
+                <source src="./assets/music/AIVA.mp3" type="audio/mpeg">
             </audio>
         </article>
 
+        <br>
         <!-- 視訊作品介紹 -->
-        <article id="section5">
+        <article id="section4">
             <h2>視訊作品</h2>
-            <iframe width="420" height="315"
-                src="https://youtu.be/m1_yrlLXRcg">
-            </iframe>
-            <p>街頭生存指南</p>
+            <img src="./assets/images/video-cover.png" alt="旭日甜品" width="400">
+            <p>街頭生存指南 <a href="https://www.youtube.com/watch?v=m1_yrlLXRcg">YouTube連結</a></p>
+            
         </article>
-
-        <!-- 圖片作品集介紹與描述 -->
-        <article id="section6">
+        
+        <br>
+        <!-- Logo -->
+        <article id="section5">
             <h2>Logo 設計作品</h2>
             <figure style="display:inline-block;">
-                <!-- 改為你的作品 -->
-                <img src="aHTML - Personal Site/assets/images/logo.png" alt="山間風景" width="450">
-                <figcaption>壯麗的山景</figcaption>
+                <img src="./assets/images/logo.png" alt="旭日甜品" width="200">
+                <figcaption>旭日甜品</figcaption>
             </figure>
             <figure style="display:inline-block;">
-                <!-- 改為你的作品 -->
-                <img src="assets/images/village.jpg" alt="小鎮景色" width="450">
-                <figcaption>寧靜的小鎮</figcaption>
+                <img src="./assets/images/logo2.jpg" alt="犀牛茶食店" width="200">
+                <figcaption>犀牛茶食店</figcaption>
             </figure>
         </article>
 
+        <br>
+        <!-- 插畫作品 -->
+        <article id="section6">
+            <h2>插畫作品</h2>
+            <img src="./assets/images/illustration.jpg" alt="插畫1" width="200">
+            <img src="./assets/images/sence1.jpg" alt="插畫2" width="200">
+            <img src="./assets/images/sence2.jpg" alt="插畫3" width="200">
+            <img src="./assets/images/sence3.jpg" alt="插畫4" width="200">
+            <img src="./assets/images/sence4.jpg" alt="插畫5" width="200">
+        </article>
 
-        <!-- 互動元素 -->
-        <details>
-            <summary>點擊查看學習提示</summary>
-            <p>建議攜帶筆記本與筆，方便隨時記錄課堂中的關鍵知識點與靈感。</p>
-        </details>
-
-        <!-- 加入地圖 -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.2784024338266!2d121.54206247541927!3d25.02462437782254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a908a8232611%3A0xeebfb2d71a5025c7!2z5ZyL56uL6Ie65YyX5pWZ6IKy5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1731827435609!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+        <br>
+        <!-- 水彩、素描作品 -->
+        <article id="section7">
+            <h2>水彩、素描作品</h2>
+            <img src="./assets/images/sketch1.jpg" alt="素描1" width="200">
+            <img src="./assets/images/sketch2.jpg" alt="素描2" height="139">
+            <img src="./assets/images/sketch3.jpg" alt="素描3" height="139">
+            <img src="./assets/images/watercolor1.jpg" alt="水彩1" width="200">
+            <img src="./assets/images/watercolor2.jpg" alt="水彩2" width="200">
+            <img src="./assets/images/watercolor3.jpg" alt="水彩3" height="139">
+        </article>
+        <br>
     </main>
+    
     
     <!-- 頁尾區 -->
     <footer>
-        <p>聯絡我們：contact@personalblog.com</p>
-        <time datetime="2024-11-17">最後更新日期：2024年11月17日</time>
+        <hr>
+        <p>聯絡我：2lily0966846139@gmail.com</p>
+        <time datetime="2024-11-29">最後更新日期：2024年11月29日</time>
     </footer>
 </body>
 </html>
